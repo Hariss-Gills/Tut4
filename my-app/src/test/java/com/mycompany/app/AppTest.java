@@ -1,6 +1,6 @@
 package com.mycompany.app;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -13,8 +13,9 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
+    public void testLoop()
     {
-        assertTrue( true );
+        App noice = new App();
+        assertEquals(noice.cool(),1);
     }
 }

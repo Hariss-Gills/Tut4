@@ -9,6 +9,13 @@ public class App
     public static void main( String[] args )
     {
             int[] myNumbers = {1, 2, 3};
-            System.out.println(myNumbers[10]); // error!
+            
+        for (int i : myNumbers) {
+              System.out.println(myNumbers[i]);
+}
+    }
+    
+    public int cool(){
+        return 1;
     }
 }
